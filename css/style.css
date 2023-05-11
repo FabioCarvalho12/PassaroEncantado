@@ -1,0 +1,272 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'passion one', cursive;
+    --font3: "sriracha", cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--font1);
+}
+header{
+    background-image: url(../Imagens/Folha\ de\ papel\ antiga\ fundo\ de\ textura\ abstrata\ _\ Foto\ Premium.jpg);
+    background-size: cover;
+    color: white; 
+    text-align: center;
+    
+}
+
+header > h1 {
+    padding: 50px;
+    font-variant: small-caps; 
+    font-family: var(--font2);
+    font-size: 10vw;
+    text-shadow: 2px 2px 3px black;
+    
+}
+header > p{
+    padding-bottom: 50px;
+    text-shadow: 2px 2px 3px black;
+    box-sizing: border-box;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+a:hover{
+
+    text-decoration: underline;
+   
+
+}
+header a:hover{
+    text-decoration: underline;
+    
+
+}
+audio {
+   
+    position: fixed;
+    right: 10px;
+    top: 1%;
+    
+}
+
+section{
+    padding: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
+    
+}
+
+section > .ima1{
+    block-size: cover;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+}
+
+section > p{
+    padding-bottom: 2em;
+
+}
+
+@media screen and (min-width: 380px) {
+    p{
+        font-size: 1.1em;
+        line-height: 2.5em;
+    }   
+}
+
+
+@media screen and (min-width: 576px) {
+    p{
+        font-size: .8em;
+        line-height: 2.3em;
+    }    
+}
+
+@media screen and (min-width: 992px) {
+    p{
+        font-size: .5em;
+        line-height: 3em;
+    }    
+}
+
+@media screen and (min-width: 992px) {
+   header > p{
+        font-size: 1.3em;
+   }    
+}
+
+ 
+ 
+
+
+section.normal{
+    background-color: white;
+    color: black;
+    box-shadow: 3px 3px 10px black;
+}
+
+section#fig1{
+    background-image: url(../Imagens/Figura-1.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
+section#fig2{
+    background-image: url(../Imagens/fundo\ 3.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section#fig3{
+    background-image: url(../Imagens/fundo6.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+section.livro{
+    padding-bottom: 1em;
+    background-image: url(../Imagens/livrro.png);
+    background-position: right center;
+    background-size: cover;
+
+    
+
+}
+section.livro > a > img{
+   height: 150px;
+   width: 100px;
+   box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.795);
+   box-sizing: border-box;
+
+   
+}
+section.livro > a > img:hover{
+    border: 1px solid rgba(0, 0, 0, 0.719);
+    transform: translate(-7px, -7px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .6s;
+}
+section.livro > p >a{
+    padding-bottom: .5em;
+    color: black;
+ 
+}
+section.livro > .pp{
+    padding-bottom: .7em;
+}
+
+
+section.imagem{
+    background-color: rgba(51, 51, 51, 0.712);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.459);
+    block-size: cover;
+    background-attachment: fixed;
+    
+}
+section.imagem > p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.541) ;
+    box-shadow: 2px 2px 10px black;
+}
+section#img01{
+    background-image: url(../Imagens/figura2.png);
+    background-size: cover;
+    background-position: right center;
+}
+section#img02{
+    background-image: url(../Imagens/Figura\ 4.png);
+    background-size: cover;
+    background-position: right center;
+}
+.video-container {
+    position: relative;
+    overflow: hidden;
+    width:100%;
+    padding-top: 56.22%;;
+    margin-bottom: 1.3em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.781);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+    
+
+#video {
+    font-variant: small-caps; 
+    font-family: var(--font2);
+    font-size: 4vw;
+    background-image: url(../Imagens/Fundo.jpg);
+    background-size: cover;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    box-shadow: none;
+    line-height: .7em;
+    text-indent: 1em;
+}
+
+footer{
+    background-image: url(../Imagens/footer.jpg);
+    color: rgb(131, 131, 131);
+    text-align: center;
+    padding: 10px;
+    
+}
+footer {
+    
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.753);
+}
+footer > p{
+    padding: 1em;
+}
+.footer{
+    padding-top: 1.3em;
+    padding-bottom: 1.5em;
+    
+}
+.footer > a{
+    margin-left: .8em;
+}
+footer > h1{
+    padding-right: 3.4em;
+}
+.footer > a > img{
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    box-sizing: border-box;
+}
+.footer > a > img:hover{
+    border: 3px solid rgb(255, 255, 255);
+    transform: translate(-10px, -10px);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .6s;
+    
+}
